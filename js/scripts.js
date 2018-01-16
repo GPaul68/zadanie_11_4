@@ -13,11 +13,11 @@ Phone.prototype.printInfo = function() {
 var iPhone8 = new Phone("Apple", 3650, "silver", "no", "iOS11");
 iPhone8.printInfo();
 
-var SamsungS8 = new Phone("Samsung", 3250, "steel", "no", "Android 7.1.1 Nougat");
-SamsungS8.printInfo();
+var samsungS8 = new Phone("Samsung", 3250, "steel", "no", "android7Nougat");
+samsungS8.printInfo();
 
-var HuaweiY6 = new Phone("Huawei", 1120, "black", "", "Android 7.1.2 Nougat");
-HuaweiY6.printInfo();
+var huaweiY6 = new Phone("Huawei", 1120, "black", "", "android7Nougat");
+huaweiY6.printInfo();
 
-var HTCU11 = new Phone("HTC", 2620, "white", "", "Android 8.0 Oreo");
-HTCU11.printInfo();
+var htcU11 = new Phone("HTC", 2620, "white", "", "android8Oreo");
+htcU11.printInfo();
